@@ -67,69 +67,78 @@ MySQL queries were written to generate business insights and advanced analytics.
    * Daily revenue trend
    * Running cumulative revenue
    * Orders above average value
-👥Customer Analytics
-Top paying customers
-Customer lifetime value
-Repeat vs one-time customers
-Customer spending ranking
-Top 10% customer segmentation
-🚚Order & Delivery Analysis
-Orders by status
-Delivery delay analysis
-Latest customer order tracking
-Days between customer orders
-💳Payment Analysis
-Revenue by payment type
-Payment installment behavior
-Credit card usage analysis
-📊Advanced SQL Concepts Used
-Common Table Expressions (CTEs)
-Window Functions
-RANK()
-ROW_NUMBER()
-LAG()
-NTILE()
-Aggregate Functions
-Subqueries
-CASE Statements
-JOIN Operations
-📈Excel Dashboard
 
+* **Customer Analytics**
+   * Top paying customers
+   * Customer lifetime value
+   * Repeat vs one-time customers
+   * Customer spending ranking
+   * Top 10% customer segmentation
+
+* **Order & Delivery Analysis**
+   * Orders by status
+   * Delivery delay analysis
+   * Latest customer order tracking
+   * Days between customer orders
+
+* **Payment Analysis**
+   * Revenue by payment type
+   * Payment installment behavior
+   * Credit card usage analysis
+
+# 📊Advanced SQL Concepts Used
+ * Common Table Expressions (CTEs)
+ * Window Functions
+ * RANK()
+ * ROW_NUMBER()
+ * LAG()
+ * NTILE()
+ * Aggregate Functions
+ * Subqueries
+ * CASE Statements
+ * JOIN Operations
+
+# 📈Excel Dashboard
 The interactive Excel dashboard provides a complete overview of e-commerce business performance.
+* **Dashboard KPIs**
+  * Total Orders
+  * Delivered Orders
+  * Total Payment Value
+  * Average Order Value
+  * Unique Customers
 
-📌Dashboard KPIs
-Total Orders
-Delivered Orders
-Total Payment Value
-Average Order Value
-Unique Customers
-📊Dashboard Visualizations
-Orders Over Time
-Orders by Status
-Orders by Day of Week
-Payment Value Trend
-Payment Type Analysis
-Payment Installments Analysis
-Top 10 Customers by Order Value
-Key Business Insights
-🎛️Interactive Filters
-Year Filter
-State Filter
-Order Status Filter
-Payment Type Filter
-🧠Key Insights
-📦Order Insights
-Over 97% of orders were successfully delivered
-Monday recorded the highest number of orders
-Order volume significantly increased during 2017
-💳Payment Insights
-Credit Card was the most preferred payment method
-Most customers preferred single-installment payments
-Average order value was approximately $154
-👥Customer Insights
-Majority of customers placed only one order
-A small percentage of customers contributed high revenue
-Repeat customers generated higher lifetime value
+* **Dashboard Visualizations**
+  * Orders Over Time
+  * Orders by Status
+  * Orders by Day of Week
+  * Payment Value Trend
+  * Payment Type Analysis
+  * Payment Installments Analysis
+  * Top 10 Customers by Order Value
+  * Key Business Insights
+
+* **Interactive Filters**
+  * Year Filter
+  * State Filter
+  * Order Status Filter
+  * Payment Type Filter
+
+# 🧠Key Insights
+* **Order Insights**
+  * Over 97% of orders were successfully delivered
+  * Monday recorded the highest number of orders
+  * Order volume significantly increased during 2017
+
+* **Payment Insights**
+  * Credit Card was the most preferred payment method
+  * Most customers preferred single-installment payments
+  * Average order value was approximately $154
+
+* **Customer Insights**
+  * Majority of customers placed only one order
+  * A small percentage of customers contributed high revenue
+  * Repeat customers generated higher lifetime value
+
 # 📁Project Architecture
 ```
 Olist-Ecommerce-Analytics
