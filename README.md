@@ -56,17 +56,17 @@ Data cleaning and preprocessing were performed using **Python (Pandas)
 # 🗄️MySQL Analysis
 MySQL queries were written to generate business insights and advanced analytics.
 * **Core Business Metrics**
-    * Total customers
-    * Total orders
-    * Total revenue
-    * Average order value
-    * Delivered orders count
+   * Total customers
+   * Total orders
+   * Total revenue
+   * Average order value
+   * Delivered orders count
 
 * **Sales & Revenue Analysis**
-    * Monthly order trend
-    * Daily revenue trend
-    * Running cumulative revenue
-    * Orders above average value
+   * Monthly order trend
+   * Daily revenue trend
+   * Running cumulative revenue
+   * Orders above average value
 👥Customer Analytics
 Top paying customers
 Customer lifetime value
