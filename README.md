@@ -18,20 +18,20 @@ The primary objectives of this project include.
 * Generate actionable business insights
 
 # 📋Dataset Features
-**👥Customer Data**
+* **Customer Data**
   * customer_id
   * customer_unique_id
   * customer_city
   * customer_state
   * customer_customer_zip_code_prefix
-**📦Order Data**
+* **Order Data**
   * order_id
   * order_status
   * order_purchase_timestamp
   * order_approved_at
   * order_delivered_customer_date
   * order_estimated_delivery_date
-**Payment Data**
+* **Payment Data**
   * payment_type
   * payment_installments
   * payment_value
