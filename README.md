@@ -24,6 +24,7 @@ The primary objectives of this project include.
   * customer_city
   * customer_state
   * customer_customer_zip_code_prefix
+
 * **Order Data**
   * order_id
   * order_status
@@ -31,6 +32,7 @@ The primary objectives of this project include.
   * order_approved_at
   * order_delivered_customer_date
   * order_estimated_delivery_date
+
 * **Payment Data**
   * payment_type
   * payment_installments
@@ -53,11 +55,11 @@ Data cleaning and preprocessing were performed using **Python (Pandas)
 
 # 🗄️MySQL Analysis
 * **Core Business Metrics**
- * total customers
- * total orders
- * total revenue
- * average order value
- * delivered orders count
+* total customers
+* total orders
+* total revenue
+* average order value
+* delivered orders count
 
 * **Sales & Revenue Analysis**
  * monthly order trend
@@ -187,7 +189,7 @@ This E-commerce orders analytics project successfully analyzed customer orders,p
 # 👨‍💻Author
 Diwakar K | Data Analyst (Fresher)
 
-*💡Skills
+* **💡Skills:**
 Python,
 Pandas,
 MySQL,
