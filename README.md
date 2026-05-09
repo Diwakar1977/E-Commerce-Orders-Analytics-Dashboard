@@ -18,7 +18,7 @@ The primary objectives of this project include.
 * Generate actionable business insights
 
 # 📋Dataset Features
-👥Customer Data
+**👥Customer Data**
 * customer_id
 * customer_unique_id
 * customer_city
