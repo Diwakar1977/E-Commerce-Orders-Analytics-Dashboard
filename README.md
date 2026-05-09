@@ -19,9 +19,36 @@ The primary objectives of this project include.
 
 # 📋Dataset Features
 **👥Customer Data**
-* customer_id
-* customer_unique_id
-* customer_city
-* customer_state
-* customer_customer_zip_code_prefix
+  * customer_id
+  * customer_unique_id
+  * customer_city
+  * customer_state
+  * customer_customer_zip_code_prefix
+**📦Order Data**
+  * order_id
+  * order_status
+  * order_purchase_timestamp
+  * order_approved_at
+  * order_delivered_customer_date
+  * order_estimated_delivery_date
+**Payment Data**
+  * payment_type
+  * payment_installments
+  * payment_value
+  * payment_sequetial
+
+# 🧹Data Cleaning & Preprocessing
+Data cleaning and preprocessing were performed using **Python (Pandas)
+**✅Data Cleaning Steps**
+  * load CSV datasets using Pandas
+  * checked dataset structure using **.info()**
+  * performed statistical analysis using **.describe()**
+  * checked missing values using **.isna().sum()**
+  * identified duplicate records
+  * converted order date columns into datetime format
+  * filled missing approved dates using purchase timestamps
+  * filled missing carrier delivery dates using approved dates
+  * filled missing customer delivery dates using esimated delivery dates
+  * exported clened datasets into MySQL database using SQLalchemy and CSV file
+
 # 
