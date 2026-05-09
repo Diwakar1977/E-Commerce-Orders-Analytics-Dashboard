@@ -54,89 +54,82 @@ Data cleaning and preprocessing were performed using **Python (Pandas)
   * exported clened datasets into MySQL database using SQLalchemy and CSV file
 
 # 🗄️MySQL Analysis
+MySQL queries were written to generate business insights and advanced analytics.
 * **Core Business Metrics**
-* total customers
-* total orders
-* total revenue
-* average order value
-* delivered orders count
+ * Total customers
+ * Total orders
+ * Total revenue
+ * Average order value
+ * Delivered orders count
 
 * **Sales & Revenue Analysis**
- * monthly order trend
- * daily revenue trend
- * running cumulative revenue
- * orders above average value
+ * Monthly order trend
+ * Daily revenue trend
+ * Running cumulative revenue
+ * Orders above average value
+👥Customer Analytics
+Top paying customers
+Customer lifetime value
+Repeat vs one-time customers
+Customer spending ranking
+Top 10% customer segmentation
+🚚Order & Delivery Analysis
+Orders by status
+Delivery delay analysis
+Latest customer order tracking
+Days between customer orders
+💳Payment Analysis
+Revenue by payment type
+Payment installment behavior
+Credit card usage analysis
+📊Advanced SQL Concepts Used
+Common Table Expressions (CTEs)
+Window Functions
+RANK()
+ROW_NUMBER()
+LAG()
+NTILE()
+Aggregate Functions
+Subqueries
+CASE Statements
+JOIN Operations
+📈Excel Dashboard
 
-* **Cusomer Analytics**
- * top paying customers
- * customer lifetime value
- * repeat vs one-time customers
- * customers spending ranking
- * top 10% customer segmentation
-
-* **Orders & Delivery Analysis**
- * orders by status
- * delivery delay analysis
- * lastest customer order tracking
- * days between customer orders
-
-* **Payment Analysis**
- * revenue by payment type
- * payment installment behavior
- * credit card usage analysis
-
-* **📊Advanced SQL Concepts Used**
- * common table expressions (CTEs)
- * window functions
- * RANK()
- * ROW_NUMBER()
- * LAG()
- * aggreate functions
- * subqueries
- * CASE statements
- * JOIN operations
-
-# 📈Excel Dashboard
 The interactive Excel dashboard provides a complete overview of e-commerce business performance.
-* **Dashbaord KPIs**
- * total orders
- * delivered orders
- * total payments value
- * average order value
- * unique customers
 
-* **Dashboard Visualizations**
- * orders over time
- * orders by status
- * order by day of week
- * payment value trend
- * payment type analysis
- * payment installments analysis
- * top 10 customers by order value
- * key business insights
-
-* **Interactive filters**
- * Year filter
- * state filter
- * order status filter
- * payment type filter
-
-# 🧠Key Insights
-* **Order Status**
- * over 97% orders were successfully delivered
- * monday recorded the highest number of orders
- * order volume significantly during 2017
-
-* **Payment Insights**
- * credit card was the most preferred payment method
- * most customers preferred singel-installment payments
- * average order value was approximately $154
-
-* **Customer Insights**
- * majority of customers palced only one order
- * a small percentage of customers contributed high revenue
- * repeat customer generated high lifetime value
-
+📌Dashboard KPIs
+Total Orders
+Delivered Orders
+Total Payment Value
+Average Order Value
+Unique Customers
+📊Dashboard Visualizations
+Orders Over Time
+Orders by Status
+Orders by Day of Week
+Payment Value Trend
+Payment Type Analysis
+Payment Installments Analysis
+Top 10 Customers by Order Value
+Key Business Insights
+🎛️Interactive Filters
+Year Filter
+State Filter
+Order Status Filter
+Payment Type Filter
+🧠Key Insights
+📦Order Insights
+Over 97% of orders were successfully delivered
+Monday recorded the highest number of orders
+Order volume significantly increased during 2017
+💳Payment Insights
+Credit Card was the most preferred payment method
+Most customers preferred single-installment payments
+Average order value was approximately $154
+👥Customer Insights
+Majority of customers placed only one order
+A small percentage of customers contributed high revenue
+Repeat customers generated higher lifetime value
 # 📁Project Architecture
 ```
 Olist-Ecommerce-Analytics
@@ -187,7 +180,7 @@ This E-commerce orders analytics project successfully analyzed customer orders,p
 * Excel Dashboard Documentation
 
 # 👨‍💻Author
-Diwakar K | Data Analyst (Fresher)
+Diwakar K | Data Analyst
 
 * **💡Skills:**
 Python,
